@@ -1,14 +1,14 @@
-2014-10-02 12:07:54,290 WARN  [SoapUI] Missing folder [C:\work\project\SmsLine\soapui\http\.\ext] for external libraries
-2014-10-02 12:07:54,291 INFO  [DefaultSoapUICore] Creating new settings at [C:\Windows\system32\config\systemprofile\soapui-settings.xml]
-2014-10-02 12:07:58,031 INFO  [WsdlProject] Loaded project from [file:/C:/work/project/SmsLine/SMS-Line-API-soapui-project.xml]
-2014-10-02 12:07:58,031 WARN  [WsdlProject] Project 'SMS-Line_API' is from a newer version (5.1.2) of soapUI than this (4.5.1-SNAPSHOT) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
-2014-10-02 12:08:01,739 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [SMS-Line_API]
-2014-10-02 12:08:01,742 INFO  [SoapUITestCaseRunner] Running Project [SMS-Line_API], runType = SEQUENTIAL
-2014-10-02 12:08:01,764 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
-2014-10-02 12:08:01,857 INFO  [SoapUITestCaseRunner] running step [Properties]
-2014-10-02 12:08:02,106 INFO  [SoapUITestCaseRunner] running step [- Request 1]
-2014-10-02 12:08:03,826 INFO  [SoapUITestCaseRunner] Assertion [msisdn] has status VALID
-2014-10-02 12:08:03,826 INFO  [SoapUITestCaseRunner] Assertion [text] has status VALID
-2014-10-02 12:08:03,826 INFO  [SoapUITestCaseRunner] Assertion [target] has status VALID
-2014-10-02 12:08:03,829 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 923ms, status: FINISHED
-2014-10-02 12:08:03,834 INFO  [SoapUITestCaseRunner] Project [SMS-Line_API] finished with status [FINISHED] in 2085ms
+2014-10-06 10:30:21,608 WARN  [SoapUI] Missing folder [C:\work\project\SmsLine\soapui\http\.\ext] for external libraries
+2014-10-06 10:30:21,611 INFO  [DefaultSoapUICore] Creating new settings at [C:\Windows\system32\config\systemprofile\soapui-settings.xml]
+2014-10-06 10:30:26,647 INFO  [WsdlProject] Loaded project from [file:/C:/work/project/SmsLine/SMS-Line-API-soapui-project.xml]
+2014-10-06 10:30:26,647 WARN  [WsdlProject] Project 'SMS-Line_API' is from a newer version (5.1.2) of soapUI than this (4.5.1-SNAPSHOT) and parts of it may be incompatible or incorrect. Saving this project with this version of soapUI may cause it to function differently.
+2014-10-06 10:30:31,879 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [SMS-Line_API]
+2014-10-06 10:30:31,881 INFO  [SoapUITestCaseRunner] Running Project [SMS-Line_API], runType = SEQUENTIAL
+2014-10-06 10:30:32,011 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
+2014-10-06 10:30:32,193 INFO  [SoapUITestCaseRunner] running step [Properties]
+2014-10-06 10:30:32,513 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2014-10-06 10:30:36,347 INFO  [SoapUITestCaseRunner] Assertion [msisdn] has status VALID
+2014-10-06 10:30:36,347 INFO  [SoapUITestCaseRunner] Assertion [text] has status VALID
+2014-10-06 10:30:36,347 INFO  [SoapUITestCaseRunner] Assertion [target] has status VALID
+2014-10-06 10:30:36,348 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 1889ms, status: FINISHED
+2014-10-06 10:30:36,351 INFO  [SoapUITestCaseRunner] Project [SMS-Line_API] finished with status [FINISHED] in 4465ms
