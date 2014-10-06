@@ -1,0 +1,50 @@
+Status: FAILED
+Time Taken: 893
+Size: 77
+Timestamp: Mon Oct 06 10:54:41 BRT 2014
+TestStep: Request 1
+
+----------------- Messages ------------------------------
+[Match content of [data]] XPathContains comparison failed, expecting [TARGET: 333
+MSISDN: 375447373783
+TEXT: test message HTTP API id1412603685667
+], actual was [TARGET: 333
+MSISDN: 375447373783
+TEXT: test message HTTP API id1412603682802
+]
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://api.admin-smsline.bam-boo.local:83
+Method: GET
+StatusCode: 200
+URL: http://api.admin-smsline.bam-boo.local:83/?target=333&msisdn=375447373783&pass=3f93a9a4f5af6c870c0edf0d46cee86f&text=test%20message%20HTTP%20API%20id1412603682802&login=test2_vsc
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [api.admin-smsline.bam-boo.local:83]
+Accept-Encoding: [gzip,deflate]
+
+GET http://api.admin-smsline.bam-boo.local:83/?target=333&msisdn=375447373783&pass=3f93a9a4f5af6c870c0edf0d46cee86f&text=test%20message%20HTTP%20API%20id1412603682802&login=test2_vsc HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: api.admin-smsline.bam-boo.local:83
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=100]
+Server: [Apache/2.2.22 (Debian)]
+Content-Encoding: [gzip]
+Connection: [Keep-Alive]
+Vary: [Accept-Encoding]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [93]
+Date: [Mon, 06 Oct 2014 13:54:42 GMT]
+Content-Type: [text/plain]
+
+TARGET: 333
+MSISDN: 375447373783
+TEXT: test message HTTP API id1412603682802
+
